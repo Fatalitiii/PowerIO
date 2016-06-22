@@ -1,0 +1,77 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube_all",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "inventory": [
+      {}
+    ],
+    "oretype": {
+      "gold": {
+        "model": "gold_ore"
+      },
+      "iron": {
+        "model": "iron_ore"
+      },
+      "coal": {
+        "model": "coal_ore"
+      },
+      "lapis": {
+        "model": "lapis_ore"
+      },
+      "diamond": {
+        "model": "diamond_ore"
+      },
+      "emerald": {
+        "model": "emerald_ore"
+      },
+      "aluminum": {
+        "textures": {
+          "all": "powerio:blocks/ores/aluminum"
+        }
+      },
+      "chromite": {
+        "textures": {
+          "all": "powerio:blocks/ores/chromite"
+        }
+      },
+      "copper": {
+        "textures": {
+          "all": "powerio:blocks/ores/copper"
+        }
+      },
+      "gallium": {
+        "textures": {
+          "all": "powerio:blocks/ores/gallium"
+        }
+      },
+      "nickel": {
+        "textures": {
+          "all": "powerio:blocks/ores/nickel"
+        }
+      },
+      "potash": {
+        "textures": {
+          "all": "powerio:blocks/ores/potash"
+        }
+      },
+      "titanium": {
+        "textures": {
+          "all": "powerio:blocks/ores/titanium"
+        }
+      },
+      "uranium": {
+        "textures": {
+          "all": "powerio:blocks/ores/uranium"
+        }
+      },
+      "zinc": {
+        "textures": {
+          "all": "powerio:blocks/ores/zinc"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "powerio:items/ores/dust_zinc"
+  }
+}

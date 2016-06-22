@@ -1,0 +1,81 @@
+######################################################
+################    CREATIVE TABS    #################
+######################################################
+itemGroup.powerio.transport=PowerIO Transport
+itemGroup.powerio.ores=PowerIO Ores
+
+
+######################################################
+####################    CABLES    ####################
+######################################################
+tile.powerio.transport.cable.copper.name=Copper Cable
+tile.powerio.transport.cable.gold.name=Gold Cable
+tile.powerio.transport.cable.redstone.name=Redstone Cable
+tile.powerio.transport.cable.fiber.name=Fiber Optics
+
+######################################################
+####################    ORES    ######################
+######################################################
+tile.powerio.ores.ore.aluminum.name=Aluminum Ore
+tile.powerio.ores.ore.chromite.name=Chromite Ore
+tile.powerio.ores.ore.copper.name=Copper Ore
+tile.powerio.ores.ore.gallium.name=Gallium Ore
+tile.powerio.ores.ore.nickel.name=Nickel Ore
+tile.powerio.ores.ore.potash.name=Potash Ore
+tile.powerio.ores.ore.quartz.name=Quartz Ore
+tile.powerio.ores.ore.titanium.name=Titanium Ore
+tile.powerio.ores.ore.uranium.name=Uranium Ore
+tile.powerio.ores.ore.zinc.name=Zinc Ore
+
+######################################################
+####################    DUST    ######################
+######################################################
+item.powerio.ores.dust.gold.name=Gold Dust
+item.powerio.ores.dust.iron.name=Iron Dust
+item.powerio.ores.dust.coal.name=Coal Dust
+item.powerio.ores.dust.lapis.name=Lapis Dust
+item.powerio.ores.dust.diamond.name=Diamond Dust
+item.powerio.ores.dust.emerald.name=Emerald Dust
+
+item.powerio.ores.dust.aluminum.name=Aluminum Dust
+item.powerio.ores.dust.chromite.name=Chromite Dust
+item.powerio.ores.dust.copper.name=Copper Dust
+item.powerio.ores.dust.gallium.name=Gallium Dust
+item.powerio.ores.dust.nickel.name=Nickel Dust
+item.powerio.ores.dust.potash.name=Potash Dust
+item.powerio.ores.dust.quartz.name=Quartz Dust
+item.powerio.ores.dust.titanium.name=Titanium Dust
+item.powerio.ores.dust.uranium.name=Uranium Dust
+item.powerio.ores.dust.zinc.name=Zinc Dust
+
+######################################################
+##################    INGOTS    ######################
+######################################################
+item.powerio.ores.ingot.aluminum.name=Aluminum Ingot
+item.powerio.ores.ingot.chromite.name=Chromite Ingot
+item.powerio.ores.ingot.copper.name=Copper Ingot
+item.powerio.ores.ingot.gallium.name=Gallium Ingot
+item.powerio.ores.ingot.nickel.name=Nickel Ingot
+item.powerio.ores.ingot.potash.name=Potash Ingot
+item.powerio.ores.ingot.quartz.name=Quartz Ingot
+item.powerio.ores.ingot.titanium.name=Titanium Ingot
+item.powerio.ores.ingot.uranium.name=Uranium Ingot
+item.powerio.ores.ingot.zinc.name=Zinc Ingot
+
+######################################################
+##################    NUGGETS    #####################
+######################################################
+item.powerio.ores.nugget.iron.name=Iron Nugget
+item.powerio.ores.nugget.diamond.name=Diamond Nugget
+item.powerio.ores.nugget.emerald.name=Emerald Nugget
+
+item.powerio.ores.nugget.aluminum.name=Aluminum Nugget
+item.powerio.ores.nugget.chromite.name=Chromite Nugget
+item.powerio.ores.nugget.copper.name=Copper Nugget
+item.powerio.ores.nugget.gallium.name=Gallium Nugget
+item.powerio.ores.nugget.nickel.name=Nickel Nugget
+item.powerio.ores.nugget.potash.name=Potash Nugget
+item.powerio.ores.nugget.quartz.name=Quartz Nugget
+item.powerio.ores.nugget.titanium.name=Titanium Nugget
+item.powerio.ores.nugget.uranium.name=Uranium Nugget
+item.powerio.ores.nugget.zinc.name=Zinc Nugget

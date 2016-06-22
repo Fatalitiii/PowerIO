@@ -1,0 +1,33 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube_all"
+  },
+  "variants": {
+    "inventory": [
+      {}
+    ],
+    "tier": {
+      "copper": {
+        "textures": {
+          "all": "powerio:blocks/ores/copper"
+        }
+      },
+      "gold": {
+        "textures": {
+          "all": "minecraft:blocks/gold_block"
+        }
+      },
+      "redstone": {
+        "textures": {
+          "all": "minecraft:blocks/redstone_block"
+        }
+      },
+      "fiber": {
+        "textures": {
+          "all": "minecraft:blocks/glass"
+        }
+      }
+    }
+  }
+}
