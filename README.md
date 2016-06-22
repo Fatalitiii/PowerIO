@@ -59,7 +59,7 @@
 	
 	> 'T' Crafting Table
 	
-- Tier 2-3
+  - Tier 2-3
 	> " SS"
 
 	> " C "
