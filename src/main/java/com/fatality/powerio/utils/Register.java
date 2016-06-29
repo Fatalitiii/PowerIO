@@ -129,13 +129,31 @@ public class Register {
 		}
 	}
 	
-	public static String getKeys(Map<IProperty<?>, Comparable<?>> values) {
-		String propertyString = "";
-		for (Map.Entry<IProperty<?>, Comparable<?>> json : values.entrySet()) {
-			IProperty<?> key = (IProperty) json.getKey();
-			propertyString = String.format("%s=%s", key.getName(), getValue(key, (Comparable) json.getValue()));
+	public static String getKeys(Map<IProperty<?>, Comparable<?>> values, String... extrasArgs) {
+		StringBuilder stringbuilder = new StringBuilder();
+		
+		for (Map.Entry<IProperty<?>, Comparable<?>> entry : values.entrySet()) {
+			if (stringbuilder.length() != 0) {
+				stringbuilder.append(",");
+			}
+			
+			IProperty<?> iproperty = (IProperty) entry.getKey();
+			stringbuilder.append(iproperty.getName());
+			stringbuilder.append("=");
+			stringbuilder.append(getValue(iproperty, (Comparable) entry.getValue()));
 		}
-		return propertyString;
+		
+		if (stringbuilder.length() == 0) {
+			stringbuilder.append("inventory");
+		}
+		
+		for (String args : extrasArgs) {
+			if (stringbuilder.length() != 0)
+				stringbuilder.append(",");
+			stringbuilder.append(args);
+		}
+		
+		return stringbuilder.toString();
 	}
 	
 	private static <T extends Comparable<T>> String getValue(IProperty<T> variants, Comparable<?> value) {
